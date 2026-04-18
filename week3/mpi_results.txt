@@ -1,0 +1,28 @@
+===== MPI Hello World =====
+Hello from process 0 of 1
+Hello from process 0 of 2
+Hello from process 1 of 2
+Hello from process 1 of 4
+Hello from process 3 of 4
+Hello from process 0 of 4
+Hello from process 2 of 4
+Hello from process 6 of 8
+Hello from process 7 of 8
+Hello from process 2 of 8
+Hello from process 4 of 8
+Hello from process 1 of 8
+Hello from process 3 of 8
+Hello from process 5 of 8
+Hello from process 0 of 8
+===== SERIAL VECTOR =====
+Sum = 83208375.000000
+Internal time = 0.000010 seconds
+Sum = 83332083337500.000000
+Internal time = 0.000754 seconds
+Sum = 83333208333281888.000000
+Internal time = 0.003458 seconds
+===== MPI VECTOR =====
+Total sum = 83332083337500.000000
+Total sum = 83332083337500.000000
+Total sum = 83332083337500.000000
+Total sum = 83333208333287680.000000
