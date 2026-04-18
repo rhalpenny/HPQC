@@ -1,0 +1,26 @@
+===== comm_test_functional =====
+--- np 2 ---
+Root received 10 from rank 1
+Rank 1 sent 10 to root
+--- np 4 ---
+Rank 1 sent 10 to root
+Rank 2 sent 20 to root
+Rank 3 sent 30 to root
+Root received 10 from rank 1
+Root received 20 from rank 2
+Root received 30 from rank 3
+--- np 8 ---
+Rank 5 sent 50 to root
+Rank 3 sent 30 to root
+Rank 6 sent 60 to root
+Rank 7 sent 70 to root
+Rank 1 sent 10 to root
+Rank 2 sent 20 to root
+Rank 4 sent 40 to root
+Root received 10 from rank 1
+Root received 20 from rank 2
+Root received 30 from rank 3
+Root received 40 from rank 4
+Root received 50 from rank 5
+Root received 60 from rank 6
+Root received 70 from rank 7

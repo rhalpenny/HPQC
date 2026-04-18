@@ -1,0 +1,6 @@
+===== pingpong latency =====
+num_pings=10 counter=10 elapsed_time=8.964539e-05 avg_time=8.964539e-06
+num_pings=100 counter=100 elapsed_time=2.973080e-04 avg_time=2.973080e-06
+num_pings=1000 counter=1000 elapsed_time=1.319885e-03 avg_time=1.319885e-06
+num_pings=10000 counter=10000 elapsed_time=7.863283e-03 avg_time=7.863283e-07
+num_pings=100000 counter=100000 elapsed_time=6.590295e-02 avg_time=6.590295e-07

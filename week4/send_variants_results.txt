@@ -1,0 +1,36 @@
+===== send variants =====
+--- MPI_Send ---
+Rank 2 using send took 2.098083e-05 seconds to send
+Rank 3 using send took 2.551079e-05 seconds to send
+Rank 1 using send took 2.884865e-05 seconds to send
+Root received 100 from rank 1 in 2.493858e-04 seconds
+Root received 200 from rank 2 in 9.536743e-07 seconds
+Root received 300 from rank 3 in 0.000000e+00 seconds
+--- MPI_Ssend ---
+Rank 2 using ssend took 5.292892e-05 seconds to send
+Rank 3 using ssend took 3.933907e-05 seconds to send
+Root received 100 from rank 1 in 5.507469e-05 seconds
+Root received 200 from rank 2 in 9.059906e-06 seconds
+Root received 300 from rank 3 in 1.120567e-05 seconds
+Rank 1 using ssend took 4.029274e-05 seconds to send
+--- MPI_Bsend ---
+Rank 2 using bsend took 2.002716e-05 seconds to send
+Rank 3 using bsend took 1.955032e-05 seconds to send
+Rank 1 using bsend took 2.288818e-05 seconds to send
+Root received 100 from rank 1 in 1.001358e-04 seconds
+Root received 200 from rank 2 in 9.536743e-07 seconds
+Root received 300 from rank 3 in 0.000000e+00 seconds
+--- MPI_Rsend ---
+Rank 2 using rsend took 1.358986e-05 seconds to send
+Root received 100 from rank 1 in 7.820129e-05 seconds
+Root received 200 from rank 2 in 1.668930e-06 seconds
+Rank 1 using rsend took 1.883507e-05 seconds to send
+Root received 300 from rank 3 in 9.775162e-06 seconds
+Rank 3 using rsend took 1.549721e-05 seconds to send
+--- MPI_Isend ---
+Rank 3 using isend took 1.454353e-05 seconds to send
+Rank 2 using isend took 1.716614e-05 seconds to send
+Root received 100 from rank 1 in 1.623631e-04 seconds
+Root received 200 from rank 2 in 1.430511e-06 seconds
+Root received 300 from rank 3 in 2.384186e-07 seconds
+Rank 1 using isend took 1.597404e-05 seconds to send

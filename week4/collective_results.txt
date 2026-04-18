@@ -1,0 +1,11 @@
+===== collective communications =====
+--- DIY send/recv ---
+Total sum = 83333208333287680.000000
+--- Broadcast + Reduce ---
+Total sum = 83333208333287680.000000
+--- Scatter + Gather ---
+Total sum = 83333208333287680.000000
+--- Scatter + Reduce ---
+Total sum = 83333208333287680.000000
+--- Custom Reduce ---
+Total sum = 83333208333287680.000000

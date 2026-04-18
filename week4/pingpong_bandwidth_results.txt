@@ -1,0 +1,8 @@
+===== pingpong bandwidth =====
+num_pings=10000 num_elements=1 bytes=8 elapsed_time=9.805918e-03 avg_time=9.805918e-07
+num_pings=10000 num_elements=16 bytes=128 elapsed_time=1.103377e-02 avg_time=1.103377e-06
+num_pings=10000 num_elements=128 bytes=1024 elapsed_time=1.615787e-02 avg_time=1.615787e-06
+num_pings=5000 num_elements=1024 bytes=8192 elapsed_time=5.595851e-02 avg_time=1.119170e-05
+num_pings=2000 num_elements=8192 bytes=65536 elapsed_time=5.220175e-02 avg_time=2.610087e-05
+num_pings=500 num_elements=65536 bytes=524288 elapsed_time=7.288361e-02 avg_time=1.457672e-04
+num_pings=100 num_elements=262144 bytes=2097152 elapsed_time=5.575776e-02 avg_time=5.575776e-04

@@ -1,0 +1,26 @@
+===== comm_test_mpi original =====
+--- np 2 ---
+Hello, I am 0 of 2. Received 10 from Rank 1
+Hello, I am 1 of 2. Sent 10 to Rank 0
+--- np 4 ---
+Hello, I am 0 of 4. Received 10 from Rank 1
+Hello, I am 1 of 4. Sent 10 to Rank 0
+Hello, I am 3 of 4. Sent 30 to Rank 0
+Hello, I am 0 of 4. Received 20 from Rank 2
+Hello, I am 0 of 4. Received 30 from Rank 3
+Hello, I am 2 of 4. Sent 20 to Rank 0
+--- np 8 ---
+Hello, I am 2 of 8. Sent 20 to Rank 0
+Hello, I am 6 of 8. Sent 60 to Rank 0
+Hello, I am 7 of 8. Sent 70 to Rank 0
+Hello, I am 4 of 8. Sent 40 to Rank 0
+Hello, I am 0 of 8. Received 10 from Rank 1
+Hello, I am 0 of 8. Received 20 from Rank 2
+Hello, I am 1 of 8. Sent 10 to Rank 0
+Hello, I am 5 of 8. Sent 50 to Rank 0
+Hello, I am 0 of 8. Received 30 from Rank 3
+Hello, I am 0 of 8. Received 40 from Rank 4
+Hello, I am 0 of 8. Received 50 from Rank 5
+Hello, I am 0 of 8. Received 60 from Rank 6
+Hello, I am 0 of 8. Received 70 from Rank 7
+Hello, I am 3 of 8. Sent 30 to Rank 0
