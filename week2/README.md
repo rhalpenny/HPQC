@@ -11,6 +11,7 @@ This activity investigates different ways of measuring runtime in Linux, C and P
 - `time_file_read.c` - reads a file into memory and measures runtime
 - `time_file_write.py` - Python version of file writing benchmark
 - `time_file_read.py` - Python version of file reading benchmark
+- `results.txt` - saved terminal output from the benchmarking runs
 
 ## Compilation
 The C programs were compiled from the home directory using:
